@@ -29,4 +29,4 @@ if __name__ == '__main__':
 
     predictions = classifier(path)
 
-print(predictions)
+    print(predictions)

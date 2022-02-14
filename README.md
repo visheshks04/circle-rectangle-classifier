@@ -17,3 +17,8 @@ I will be using Binary Cross Entropy as the loss function because this is a bina
 ## How to test
 
 Change the path variable in the classifier.py module to the path to the directory of the testing images. Alternatively, the classifier.py could be run directly along with the path as a command line argument. The classifier function could also be imported and used seperately somewhere else.
+
+## Metrics
+
+<img title="Losses Curve" alt="losses curve" src="losses.png">
+<img title="Accuracies Curve" alt="accuracies curve" src="binary_accuracies.png">
