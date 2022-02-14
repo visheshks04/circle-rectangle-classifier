@@ -10,5 +10,10 @@ My approach is to keep the network as simple as possible to match up with the si
 
 I will be using Binary Cross Entropy as the loss function because this is a binary classification problem.
 
-    train.py is used to train a model using the dataset given.
     classifier.py makes predictions on a directory of pictures. The directory path can be passed as a command line argument or changed seperately in the file.
+    train.py is used to train a model using the dataset given.
+    data.py has the preprocessing and fetching functions.
+
+## How to test
+
+Change the path variable in the classifier.py module to the path to the directory of the testing images. Alternatively, the classifier.py could be run directly along with the path as a command line argument. The classifier function could also be imported and used seperately somewhere else.
