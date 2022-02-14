@@ -8,4 +8,7 @@ The dataset is has colored 3 channel (RGB) pictures and I don't think it serves 
 
 My approach is to keep the network as simple as possible to match up with the simplicity of the problem. The neural network with start off with a Conv2D with 32 filters which is a followed by a MaxPool2D. After this the layers are flattened into one dimension and followed by a fully connected dense layer of 16 units which will output to a sigmoid unit.
 
-I will be using Binary Categorical Crossentropy as the loss function because this is a binary classification problem.
+I will be using Binary Cross Entropy as the loss function because this is a binary classification problem.
+
+    train.py is used to train a model using the dataset given.
+    classifier.py makes predictions on a directory of pictures. The directory path can be passed as a command line argument or changed seperately in the file.
