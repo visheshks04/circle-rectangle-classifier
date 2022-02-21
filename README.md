@@ -20,7 +20,10 @@ Change the path variable in the classifier.py module to the path to the director
 
 ## Metrics
 
-<img title="Losses Curve" alt="losses curve" src="losses.png">
 THIS IS THE CURVE FOR THE LOSS
-<img title="Accuracies Curve" alt="accuracies curve" src="binary_accuracies.png">
+<img title="Losses Curve" alt="losses curve" src="losses.png">
+Red: Validation; Green: Training
+
 THIS IS THE CURVE FOR THE BINARY ACCURACY
+<img title="Accuracies Curve" alt="accuracies curve" src="binary_accuracies.png">
+Red: Validation; Green: Training
